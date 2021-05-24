@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 56px 8px 0;
   align-items: center;
+  flex: 1;
 }
 
 .content__logo {
@@ -38,4 +39,11 @@
 .content__offer a {
   text-decoration: none;
   color: #1967d2;
+}
+/*inicio media quryes*/
+
+@media (min-width: 763px) {
+  .content {
+    padding-top: 120px;
+  }
 }
