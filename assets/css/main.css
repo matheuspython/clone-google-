@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 8px 0;
+  align-items: center;
+}
+
+.content__logo {
+  height: 56px;
+}
+.content__search {
+  margin-top: 18px;
+  width: 100%;
+  max-width: 736px;
+  padding: 7px 10px 6px 20px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.87);
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid #dadce0;
+  outline: 0;
+  background-image: url('../images/lupa.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 4% 50%;
+  padding-left: 35px;
+}
+.content__search:focus {
+ /* border: 1px solid orange;*/
+  box-shadow: 1px 1px 1px 1px #bebebe;
+}
+.content__offer {
+  margin-top: 24px;
+  font-size: 13px;
+  padding: 6px 12px;
+}
+
+.content__offer a {
+  text-decoration: none;
+  color: #1967d2;
+}
