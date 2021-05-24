@@ -56,3 +56,22 @@
     top: 0;
     left: 0;
   }
+  /*inicio media queryes*/
+  @media screen and (min-width: 763px) {
+    .menu {
+      justify-content: flex-end;
+    }
+    .hamburger{
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+    .menu__link.active {
+      margin-bottom: 2px;
+      border-color: transparent;
+      color: #757575;
+    }
+    .menu__link:hover {
+      text-decoration: underline;
+    }
+  }
