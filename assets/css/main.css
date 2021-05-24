@@ -46,4 +46,7 @@
   .content {
     padding-top: 120px;
   }
+  .content__logo {
+    height: 150px;
+  }
 }

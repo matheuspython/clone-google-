@@ -1,0 +1,1 @@
+console.log('😃 por aqui não tem nada meu caro')
